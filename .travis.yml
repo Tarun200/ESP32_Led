@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.10.4"
+
+install:
+  - pip install platformio
+
+script:
+  - platformio run -e esp32
